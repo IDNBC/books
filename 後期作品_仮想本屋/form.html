@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">  
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/R.png" type="image/png">
+<title>お問い合わせ等 - Omazon書店</title>
+</head>
+<body>
+<header id="top">
+<h1>お問い合わせ等</h1>
+<nav>
+<ul>
+<li><a href="index.html">ホーム</a></li>
+<li><a href="books.html">新刊コーナー</a></li>
+<li><a href="ranking.html">ランキング</a></li>
+<li><a href="form.html" class="current">お問い合わせ等</a></li>
+</ul>
+</nav>
+</header>
+<div class="image">
+</div>
+<main>
+
+<div id="space">
+<fieldset>
+<legend>お問い合わせ・ご予約等はこちら</legend>
+<p>書籍を探したい・予約したいといったお問い合わせはこちらのフォームから受け付けております。</p>
+<p>※ご入力いただいた個人情報はお問い合わせへの返信・本のご予約以外での使用はいたしません。</p>
+<form action="#" method="post" id="Form">
+<table id="formTable">
+<caption>お問い合わせフォーム</caption>
+
+<tr>
+<th><label for="name">お名前(必須)</label></th>
+<td><input type="text" name="name" id="name" maxlength="30" placeholder="本屋太郎" required autofocus></td>
+</tr>
+
+<tr>
+<th><label for="email">メールアドレス(必須)</label></th>
+<td><input type="email" name="email" id="email" maxlength="50" placeholder="example@email.com" required></td>
+</tr>
+
+<tr>
+<th><label for="category">お問い合わせ項目(必須)</label></th>
+<td><select id="category" name="category" required>
+<option value="">選択してください</option>
+<option value="search">本を探している</option>
+<option value="reserve">本のご予約</option>
+<option value="store">店舗に関するご質問</option>
+<option value="other">その他のご質問</option>
+</select></td>
+</tr>
+
+<tr>
+<th><label for="book">書籍名</label></th>
+<td><input type="text" name="book" id="book" maxlength="50"></td>
+</tr>
+
+<tr>
+<th><label for="comment">お問い合わせ詳細</label></th>
+<td><textarea id="comment" name="comment" rows="6" maxlength="400"></textarea><br><small>*探したい本に関することなど何でもお書きください(最大400字)</small></td>
+</tr>
+
+</table>
+<div class="button">
+<input type="submit" value="内容を確認する">
+</div>
+</form>
+
+</fieldset>
+</div>
+</main>
+<p class="return"><a href="#top">ページの先頭へ戻る</a></p>
+<footer>
+<div class="footer-container">
+<div class="footer-info">
+  <h3>店舗情報</h3>
+  <p>〒920-xxxx 石川県金沢市本屋町1-10</p>
+  <p>電話番号: 076-123-4567</p>
+  <p>Email: omazonbooks@mail.com</p>
+</div>
+
+<div class="footer-jikan">
+  <h3>営業時間</h3>
+  <ul>
+    <li>平日: 10:00 - 21:00</li>
+    <li>土日祝: 10:00 - 19:00</li>
+    <li>定休日: 毎月第2水曜日 年末年始</li>
+  </ul>
+</div>
+</div>
+</footer>
+</body>
+</html>
+
